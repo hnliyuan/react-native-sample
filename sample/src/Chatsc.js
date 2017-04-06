@@ -7,6 +7,7 @@ class ChatScreen extends React.Component {
     title: 'Chat with Jane',
   };
   render() {
+  	const { navigate } = this.props.navigation;
     return (
       <View>
         <Text>Hello, Chat App!</Text>
